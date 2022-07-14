@@ -9,6 +9,7 @@ import { IdealActivityDropdown } from './IdealActivityDropdown'
 import { UsersDropdown } from './UsersDropdown'
 import { SymptomsDropdown } from './SymptomsDropdown'
 import { PrimaryCannabinoidDropdown } from './PrimaryCannabinoidDropdown'
+import { NotesSection } from './NotesSection'
 
 export const NewSession = () => {
   return (
@@ -22,6 +23,7 @@ export const NewSession = () => {
         <UsersDropdown />
         <SymptomsDropdown />
         <PrimaryCannabinoidDropdown />
+        <NotesSection />
     </div>
   )
 }
