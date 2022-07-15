@@ -10,6 +10,8 @@ import { UsersDropdown } from './UsersDropdown'
 import { SymptomsDropdown } from './SymptomsDropdown'
 import { PrimaryCannabinoidDropdown } from './PrimaryCannabinoidDropdown'
 import { NotesSection } from './NotesSection'
+import { SubmitButton } from './SubmitButton'
+
 
 export const NewSession = () => {
   return (
@@ -24,6 +26,7 @@ export const NewSession = () => {
         <SymptomsDropdown />
         <PrimaryCannabinoidDropdown />
         <NotesSection />
+        <SubmitButton />
     </div>
   )
 }
